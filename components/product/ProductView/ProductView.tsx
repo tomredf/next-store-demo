@@ -140,7 +140,7 @@ const ProductView: FC<Props> = ({ product }) => {
             </div>
           </section>
           <div>
-            <Button
+{/*             <Button
               aria-label="Add to Cart"
               type="button"
               className={s.button}
@@ -149,7 +149,7 @@ const ProductView: FC<Props> = ({ product }) => {
               disabled={!variant}
             >
               Add to Cart
-            </Button>
+            </Button> */}
           </div>
         </div>
 
