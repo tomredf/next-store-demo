@@ -197,7 +197,7 @@ export default function Search({
                 >
                   {activeBrand?.name
                     ? `Design: ${activeBrand?.name}`
-                    : 'All Designs'}
+                    : 'All Manufacturers'}
                   <svg
                     className="-mr-1 ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
