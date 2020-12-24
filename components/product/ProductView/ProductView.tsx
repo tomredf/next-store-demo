@@ -139,8 +139,8 @@ const ProductView: FC<Props> = ({ product }) => {
               <Text html={product.description} />
             </div>
           </section>
-          <div>
-{/*             <Button
+{/*           <div>
+            <Button
               aria-label="Add to Cart"
               type="button"
               className={s.button}
@@ -149,15 +149,15 @@ const ProductView: FC<Props> = ({ product }) => {
               disabled={!variant}
             >
               Add to Cart
-            </Button> */}
-          </div>
+            </Button>
+          </div> */}
         </div>
 
-        <WishlistButton
+{/*         <WishlistButton
           className={s.wishlistButton}
           productId={product.entityId}
           variant={product.variants.edges?.[0]!}
-        />
+        /> */}
       </div>
     </Container>
   )
