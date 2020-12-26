@@ -44,13 +44,13 @@ const Footer: FC<Props> = ({ className, pages }) => {
                   </a>
                 </Link>
               </li>
-              <li className="py-3 md:py-0 md:pb-4">
+{/*               <li className="py-3 md:py-0 md:pb-4">
                 <Link href="/">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
                     Careers
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li className="py-3 md:py-0 md:pb-4">
                 <Link href="/blog">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
@@ -82,7 +82,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
               ))}
             </ul>
           </div>
-          <div className="col-span-1 lg:col-span-6 flex items-start lg:justify-end text-primary">
+{/*           <div className="col-span-1 lg:col-span-6 flex items-start lg:justify-end text-primary">
             <div className="flex space-x-6 items-center h-10">
               <a
                 aria-label="Github Repository"
@@ -93,7 +93,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
               </a>
               <I18nWidget />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
