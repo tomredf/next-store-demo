@@ -99,7 +99,7 @@ export default function Search({
                   {activeCategory?.name
                     ? `Category: ${activeCategory?.name}`
                     : 'All Categories'}
-                    
+
                   <svg
                     className="-mr-1 ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
@@ -359,7 +359,7 @@ export default function Search({
         </div>
 
         {/* Sort */}
-{/*         <div className="col-span-8 lg:col-span-2 order-2 lg:order-none">
+        <div className="col-span-8 lg:col-span-2 order-2 lg:order-none">
           <div className="relative inline-block w-full">
             <div className="lg:hidden">
               <span className="rounded-md shadow-sm">
@@ -450,7 +450,7 @@ export default function Search({
               </div>
             </div>
           </div>
-                          </div> */}
+        </div>
       </div>
     </Container>
   )
