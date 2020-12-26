@@ -70,7 +70,7 @@ const ProductCard: FC<Props> = ({
                 <h3 className={s.productTitle}>
                   <span>{p.name}</span>
                 </h3>
-                <span className={s.productPrice}>{price}</span>
+                {/* <span className={s.productPrice}>{price}</span> */}
               </div>
               <WishlistButton
                 className={s.wishlistButton}
