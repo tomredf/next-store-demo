@@ -72,11 +72,11 @@ const ProductCard: FC<Props> = ({
                 </h3>
                 {/* <span className={s.productPrice}>{price}</span> */}
               </div>
-              <WishlistButton
+{/*               <WishlistButton
                 className={s.wishlistButton}
                 productId={p.entityId}
                 variant={p.variants.edges?.[0]!}
-              />
+              /> */}
             </div>
             <div className={s.imageContainer}>
               <Image
