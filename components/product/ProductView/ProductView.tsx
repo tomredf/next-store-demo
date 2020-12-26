@@ -137,6 +137,7 @@ const ProductView: FC<Props> = ({ product }) => {
 
             <div className="pb-14 break-words w-full max-w-xl">
               <Text html={product.description} />
+              Test
             </div>
           </section>
 {/*           <div>
@@ -151,6 +152,7 @@ const ProductView: FC<Props> = ({ product }) => {
               Add to Cart
             </Button>
           </div> */}
+
         </div>
 
 {/*         <WishlistButton
@@ -158,6 +160,7 @@ const ProductView: FC<Props> = ({ product }) => {
           productId={product.entityId}
           variant={product.variants.edges?.[0]!}
         /> */}
+
       </div>
     </Container>
   )
