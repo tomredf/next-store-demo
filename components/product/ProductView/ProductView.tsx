@@ -131,7 +131,7 @@ const ProductView: FC<Props> = ({ product }) => {
                       /> */
                       <Image
                         className={s.img}
-                        src={opt.image_url}
+                        src={v.image_url}
                         alt={'Colour Image'}
                         width={150}
                         height={150}
