@@ -55,7 +55,7 @@ const ProductView: FC<Props> = ({ product }) => {
     }
   }
 
-  console.log(options)
+  //console.log(options)
   
 
   return (

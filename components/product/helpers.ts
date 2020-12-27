@@ -14,7 +14,7 @@ export type ProductOption = {
 export function getProductOptions(product: ProductNode) {
   const options = product.productOptions.edges?.reduce<ProductOption[]>(
     (arr, edge) => {
-      console.log(edge?.node.__typename)
+      console.log(product.productOptions)
       if (edge?.node.__typename === 'MultipleChoiceOption') {
         
         arr.push({
