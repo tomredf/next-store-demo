@@ -34,7 +34,7 @@ export function getProductOptions(product: ProductNode) {
 export function getCurrentVariant(product: ProductNode, opts: SelectedOptions) {
   const variant = product.variants.edges?.find((edge) => {
     const { node } = edge ?? {}
-    console.log(product.variants)
+    //console.log(product.variants)
     return Object.entries(opts).every(([key, value]) =>
       node?.productOptions.edges?.find((edge) => {
         if (
