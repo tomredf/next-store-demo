@@ -55,6 +55,9 @@ const ProductView: FC<Props> = ({ product }) => {
     }
   }
 
+  console.log(options)
+  
+
   return (
     <Container className="max-w-none w-full" clean>
       <NextSeo
