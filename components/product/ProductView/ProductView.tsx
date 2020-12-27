@@ -132,7 +132,7 @@ const ProductView: FC<Props> = ({ product }) => {
                       <Image
                         className={s.img}
                         src={opt.image_url}
-                        alt={v?.node.altText || 'Colour Image'}
+                        alt={'Colour Image'}
                         width={150}
                         height={150}
                         priority={i === 0}
