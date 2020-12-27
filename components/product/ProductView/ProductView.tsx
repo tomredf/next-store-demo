@@ -131,7 +131,7 @@ const ProductView: FC<Props> = ({ product }) => {
                       /> */
                       <Image
                         className={s.img}
-                        src={v.value_data?.image_url}
+                        src={v.data?.image_url}
                         alt={v.label}
                         width={150}
                         height={150}
