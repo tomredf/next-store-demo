@@ -114,7 +114,7 @@ const ProductView: FC<Props> = ({ product }) => {
                     const active = (choices as any)[opt.displayName]
 
                     return (
-                      <Swatch
+/*                       <Swatch
                         key={`${v.entityId}-${i}`}
                         active={v.label === active}
                         variant={opt.displayName}
@@ -128,6 +128,15 @@ const ProductView: FC<Props> = ({ product }) => {
                             }
                           })
                         }}
+                      /> */
+                      <Image
+                        className={s.img}
+                        src={opt.image_url}
+                        alt={v?.node.altText || 'Colour Image'}
+                        width={150}
+                        height={150}
+                        priority={i === 0}
+                        quality="85"
                       />
                     )
                   })}
